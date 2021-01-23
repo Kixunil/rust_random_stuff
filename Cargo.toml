@@ -1,0 +1,17 @@
+[package]
+name = "random_stuff"
+version = "0.1.0"
+authors = ["Martin Habovstiak <martin.habovstiak@gmail.com>"]
+edition = "2018"
+description = "A pile of random helpers, macros, extension traits... that I didn't care to write a separate crate for. Probably nothing to do with `rand` crate."
+license = "WTFPL"
+repository = "https://github.com/Kixunil/rust_random_stuff"
+keywords = ["helpers", "macros", "extension-traits"]
+categories = ["rust-patterns", "value-formatting"]
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+thiserror = "1.0.23"
+log = { version = "0.4.13", optional = true }
+slog = { version = "2.7.0", optional = true }
